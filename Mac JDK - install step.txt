@@ -1,0 +1,24 @@
+1."/usr/libexec/java_home -v"
+
+2."pwd"
+
+3. "ls -al"
+
+4. 
+	I. make .zshrc file  "touch .zshrc"
+	II. if exist .zshrc file then "open .zshrc"
+
+5. paste this two line in .zshrc file and save it.
+	
+	export JAVA_HOME=$(/usr/libexec/java_home -v "Your java version")
+	export PATH=$JAVA_HOME/bin:$PATH
+
+6. check,this two line successfull save or not by this command
+	
+	"open .zshrc"
+
+7. "source .zshrc"
+
+8. "echo $JAVA_HOME"
+
+9. "java -version"
